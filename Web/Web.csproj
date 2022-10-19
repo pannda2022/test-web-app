@@ -193,6 +193,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="GetDB.aspx" />
     <Content Include="GetToken.aspx" />
     <Content Include="SaveFile.aspx" />
     <Content Include="Web.config" />
@@ -204,6 +205,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetDB.aspx.cs">
+      <DependentUpon>GetDB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetDB.aspx.designer.cs">
+      <DependentUpon>GetDB.aspx</DependentUpon>
     </Compile>
     <Compile Include="GetToken.aspx.cs">
       <DependentUpon>GetToken.aspx</DependentUpon>
